@@ -10,27 +10,75 @@
   <body>
     <header>
       <nav>
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="services.html">SERVICES</a>
-        <a href="contact.html">CONTACT</a>
+        <div class="logo">MULTI DEVICE WEB DEVELOPMENT</div>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <div class="search-help">
+          <input type="search" placeholder="Search" />
+          <button>Help (?)</button>
+          <button>Contact Us</button>
+        </div>
       </nav>
     </header>
-
     <main>
-      <section>
-        <h1>Welcome to My Website</h1>
-        <p>This is a professional website built using HTML and Sass.</p>
-      </section>
+      <div class="home">
+        <h1>CONTACT</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe commodi
+          quos impedit illo quas debitis repellendus est voluptatibus tenetur,
+          quam, quis delectus earum qui laboriosam obcaecati enim labore
+          repellat laudantium.
+          <em>your</em> terms.
+        </p>
+      </div>
 
-      <section>
-        <h2>Featured Content</h2>
-        <p>Here’s some important information about our services.</p>
+      <div class="image-area"></div>
+      <main>
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <div class="contact-container">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+                        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p><strong>Address:</strong> 123 Michigan Street, Indianapolis, USA</p>
+                    <p><strong>Phone:</strong> +1 234 567 890</p>
+                    <p><strong>Email:</strong> contact@charleycorneil.com</p>
+                </div>
+            </div>
+        </section>
+
+      <section class="newsletter-signup">
+        <h2>Subscribe</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque esse
+          aliquid ab. Expedita deleniti reiciendis vero ab repellendus nobis
+          provident exercitationem unde officia! Ab enim accusantium quod beatae
+          voluptas inventore.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
       </section>
     </main>
-
-    <footer>
-      <p>&copy; 2024 My Website. All Rights Reserved.</p>
-    </footer>
   </body>
 </html>
